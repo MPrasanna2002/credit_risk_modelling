@@ -37,7 +37,7 @@ This project builds a machine learning pipeline to predict credit risk — the l
    - Trained model saved as `rf_model (2).pkl`
    - Scaler saved as `scaler.pkl`
 
-Example packages used:
+**Example packages used:**
 
 pandas
 
@@ -47,16 +47,17 @@ matplotlib
 
 seaborn
 
-How to Use
-1.Load the scaler and model:
+**How to Use**
+
+**1.Load the scaler and model:**
 
 import joblib
 
 scaler = joblib.load("scaler.pkl")
 model = joblib.load("rf_model (2).pkl")
 
-2.Preprocess new input data using the same pipeline.
+**2.Preprocess new input data using the same pipeline.**
 
-3.Make predictions:
+**3.Make predictions:******
 
 prediction = model.predict(scaled_input)
