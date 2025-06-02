@@ -58,6 +58,6 @@ model = joblib.load("rf_model (2).pkl")
 
 **2.Preprocess new input data using the same pipeline.**
 
-**3.Make predictions:******
+**3.Make predictions:**
 
 prediction = model.predict(scaled_input)
