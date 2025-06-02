@@ -48,14 +48,15 @@ matplotlib
 seaborn
 
 How to Use
-Load the scaler and model:
+1.Load the scaler and model:
 
 import joblib
 
 scaler = joblib.load("scaler.pkl")
 model = joblib.load("rf_model (2).pkl")
-Preprocess new input data using the same pipeline.
 
-Make predictions:
+2.Preprocess new input data using the same pipeline.
+
+3.Make predictions:
 
 prediction = model.predict(scaled_input)
